@@ -1,0 +1,23 @@
+[PROJECT]
+Target=ProyectoU1.hex
+Processor_Text=PIC18F45K50
+CCSVersion=5.015
+Compiler=PCH
+[Target Data]
+FileList=ProyectoU1.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\devices\;C:\Program Files (x86)\PICC\drivers\
+[ProyectoU1.c]
+Type=4
+[mru-list]
+1=ProyectoU1.c
+[Units]
+Count=1
+1=ProyectoU1 (main)
+
+[ProjectLog]
+Days=1
+D1=14-11-2022
+D1_L=2
+D1_L1=[56511]Project Opened.
+D1_L2=[56549]Project Closed.

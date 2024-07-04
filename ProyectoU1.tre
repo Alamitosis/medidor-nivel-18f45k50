@@ -1,0 +1,343 @@
+ÀÄProyectoU1
+   ÀÄMAIN  0/2468  Ram=4
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄSSD1306_Begin  0/334  Ram=2
+      ³  ÃÄ@delay_ms1  0/42  Ram=1
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÃÄ@I2C_WRITEU_1  0/28  Ram=1
+      ³  ³  ÃÄ@I2C_WRITEU_1  0/28  Ram=1
+      ³  ³  ÀÄ@I2C_WRITEU_1  0/28  Ram=1
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÀÄssd1306_command  0/38  Ram=2
+      ³     ÀÄ*
+      ÃÄSSD1306_ClearDisplay  0/38  Ram=2
+      ÃÄSSD1306_ROMBMP  0/424  Ram=11
+      ³  ÃÄ@MUL1616  0/36  Ram=5
+      ³  ÃÄ@READ_PROGRAM_MEMORY  0/32  Ram=7
+      ³  ÃÄSSD1306_DrawPixel  0/240  Ram=8
+      ³  ÀÄSSD1306_DrawPixel  0/240  Ram=8
+      ÃÄ@const930  0/34  Ram=0
+      ÃÄSSD1306_DrawText  0/74  Ram=6
+      ³  ÃÄSSD1306_GotoXY  0/30  Ram=2
+      ³  ÃÄSSD1306_TextSize  0/20  Ram=1
+      ³  ÀÄSSD1306_Print  0/436  Ram=8
+      ³     ÃÄ@const823  0/272  Ram=0
+      ³     ÃÄ@const826  0/236  Ram=0
+      ³     ÃÄSSD1306_DrawPixel  0/240  Ram=8
+      ³     ÃÄSSD1306_FillRect  0/62  Ram=5
+      ³     ³  ÀÄSSD1306_DrawFastVLine  0/42  Ram=5
+      ³     ³     ÀÄSSD1306_DrawLine  0/502  Ram=19
+      ³     ³        ÃÄSSD1306_DrawPixel  0/240  Ram=8
+      ³     ³        ÃÄSSD1306_DrawPixel  0/240  Ram=8
+      ³     ³        ÃÄSSD1306_DrawPixel  0/240  Ram=8
+      ³     ³        ÀÄSSD1306_DrawPixel  0/240  Ram=8
+      ³     ÀÄSSD1306_FillRect  0/62  Ram=5
+      ³        ÀÄ*
+      ÃÄ@const932  0/28  Ram=0
+      ÃÄSSD1306_DrawText  0/74  Ram=6
+      ³  ÀÄ*
+      ÃÄ@const933  0/30  Ram=0
+      ÃÄSSD1306_DrawText  0/74  Ram=6
+      ³  ÀÄ*
+      ÃÄ@const934  0/32  Ram=0
+      ÃÄSSD1306_DrawText  0/74  Ram=6
+      ³  ÀÄ*
+      ÃÄ@const935  0/32  Ram=0
+      ÃÄSSD1306_DrawText  0/74  Ram=6
+      ³  ÀÄ*
+      ÃÄ@const936  0/26  Ram=0
+      ÃÄSSD1306_DrawText  0/74  Ram=6
+      ³  ÀÄ*
+      ÃÄSSD1306_Display  0/182  Ram=1
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄssd1306_command  0/38  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄ@I2C_WRITEU_1  0/28  Ram=1
+      ³  ÃÄ@I2C_WRITEU_1  0/28  Ram=1
+      ³  ÀÄ@I2C_WRITEU_1  0/28  Ram=1
+      ÃÄ@delay_ms1  0/42  Ram=1
+      ÃÄSSD1306_ClearDisplay  0/38  Ram=2
+      ÃÄtuberias  0/638  Ram=4
+      ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ÀÄ*
+      ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ÀÄ*
+      ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ÀÄ*
+      ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ÀÄ*
+      ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ÀÄ*
+      ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ÀÄ*
+      ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ÀÄ*
+      ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ÀÄ*
+      ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ÀÄ*
+      ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ÀÄ*
+      ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ÀÄ*
+      ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ÀÄ*
+      ³  ÃÄSSD1306_DrawCircle  0/632  Ram=20
+      ³  ³  ÃÄ@MULS1616  0/84  Ram=6
+      ³  ³  ÃÄSSD1306_DrawPixel  0/240  Ram=8
+      ³  ³  ÃÄSSD1306_DrawPixel  0/240  Ram=8
+      ³  ³  ÃÄSSD1306_DrawPixel  0/240  Ram=8
+      ³  ³  ÃÄSSD1306_DrawPixel  0/240  Ram=8
+      ³  ³  ÃÄSSD1306_DrawPixel  0/240  Ram=8
+      ³  ³  ÃÄSSD1306_DrawPixel  0/240  Ram=8
+      ³  ³  ÃÄSSD1306_DrawPixel  0/240  Ram=8
+      ³  ³  ÃÄSSD1306_DrawPixel  0/240  Ram=8
+      ³  ³  ÃÄSSD1306_DrawPixel  0/240  Ram=8
+      ³  ³  ÃÄSSD1306_DrawPixel  0/240  Ram=8
+      ³  ³  ÃÄSSD1306_DrawPixel  0/240  Ram=8
+      ³  ³  ÀÄSSD1306_DrawPixel  0/240  Ram=8
+      ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ÀÄ*
+      ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ÀÄ*
+      ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ÀÄ*
+      ³  ÃÄSSD1306_DrawText  0/74  Ram=6
+      ³  ³  ÀÄ*
+      ³  ÀÄSSD1306_DrawText  0/74  Ram=6
+      ³     ÀÄ*
+      ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ÀÄ*
+      ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ÀÄ*
+      ÃÄ@delay_us1  0/38  Ram=1
+      ÃÄSSD1306_FillRect  0/62  Ram=5
+      ³  ÀÄ*
+      ÃÄSSD1306_DrawText  0/74  Ram=6
+      ³  ÀÄ*
+      ÃÄ@const938  0/30  Ram=0
+      ÃÄSSD1306_DrawText  0/74  Ram=6
+      ³  ÀÄ*
+      ÃÄSSD1306_ROMBMP  0/424  Ram=11
+      ³  ÀÄ*
+      ÃÄSSD1306_Display  0/182  Ram=1
+      ³  ÀÄ*
+      ÃÄcontrol_bomba_manual  0/46  Ram=0
+      ³  ÃÄbomba_encendida  0/498  Ram=0
+      ³  ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄSSD1306_FillCircle  0/116  Ram=11
+      ³  ³  ³  ÃÄ@MULS1616  0/84  Ram=6
+      ³  ³  ³  ÃÄSSD1306_DrawFastVLine  0/42  Ram=5
+      ³  ³  ³  ³  ÀÄ*
+      ³  ³  ³  ÀÄSSD1306_FillCircleHelper  0/528  Ram=26
+      ³  ³  ³     ÃÄ@MULS1616  0/84  Ram=6
+      ³  ³  ³     ÃÄ@MULS1616  0/84  Ram=6
+      ³  ³  ³     ÃÄSSD1306_DrawFastVLine  0/42  Ram=5
+      ³  ³  ³     ³  ÀÄ*
+      ³  ³  ³     ÃÄ@MULS1616  0/84  Ram=6
+      ³  ³  ³     ÃÄSSD1306_DrawFastVLine  0/42  Ram=5
+      ³  ³  ³     ³  ÀÄ*
+      ³  ³  ³     ÃÄ@MULS1616  0/84  Ram=6
+      ³  ³  ³     ÃÄSSD1306_DrawFastVLine  0/42  Ram=5
+      ³  ³  ³     ³  ÀÄ*
+      ³  ³  ³     ÃÄ@MULS1616  0/84  Ram=6
+      ³  ³  ³     ÀÄSSD1306_DrawFastVLine  0/42  Ram=5
+      ³  ³  ³        ÀÄ*
+      ³  ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÀÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³     ÀÄ*
+      ³  ÃÄSSD1306_Display  0/182  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄnoflujo_bomba  0/470  Ram=0
+      ³  ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄSSD1306_FillCircle  0/116  Ram=11
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÀÄSSD1306_DrawLine  0/502  Ram=19
+      ³  ³     ÀÄ*
+      ³  ÃÄSSD1306_Display  0/182  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÀÄ@delay_us1  0/38  Ram=1
+      ÃÄ@const939  0/28  Ram=0
+      ÃÄSSD1306_DrawText  0/74  Ram=6
+      ³  ÀÄ*
+      ÃÄTanque_lleno  0/110  Ram=2
+      ³  ÃÄSSD1306_ROMBMP  0/424  Ram=11
+      ³  ³  ÀÄ*
+      ³  ÃÄSSD1306_Display  0/182  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄSSD1306_ROMBMP  0/424  Ram=11
+      ³  ³  ÀÄ*
+      ³  ÃÄSSD1306_Display  0/182  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÀÄ@delay_ms1  0/42  Ram=1
+      ÃÄcontrol_bomba_manual  0/46  Ram=0
+      ³  ÀÄ*
+      ÃÄ@const940  0/28  Ram=0
+      ÃÄSSD1306_DrawText  0/74  Ram=6
+      ³  ÀÄ*
+      ÃÄTanque_bajo  0/110  Ram=2
+      ³  ÃÄSSD1306_ROMBMP  0/424  Ram=11
+      ³  ³  ÀÄ*
+      ³  ÃÄSSD1306_Display  0/182  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄSSD1306_ROMBMP  0/424  Ram=11
+      ³  ³  ÀÄ*
+      ³  ÃÄSSD1306_Display  0/182  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÀÄ@delay_ms1  0/42  Ram=1
+      ÃÄcontrol_bomba_manual  0/46  Ram=0
+      ³  ÀÄ*
+      ÃÄ@const941  0/34  Ram=0
+      ÃÄSSD1306_DrawText  0/74  Ram=6
+      ³  ÀÄ*
+      ÃÄSSD1306_ROMBMP  0/424  Ram=11
+      ³  ÀÄ*
+      ÃÄSSD1306_Display  0/182  Ram=1
+      ³  ÀÄ*
+      ÃÄcontrol_bomba_manual  0/46  Ram=0
+      ³  ÀÄ*
+      ÃÄSSD1306_FillRect  0/62  Ram=5
+      ³  ÀÄ*
+      ÃÄSSD1306_DrawText  0/74  Ram=6
+      ³  ÀÄ*
+      ÃÄ@const938  0/30  Ram=0
+      ÃÄSSD1306_DrawText  0/74  Ram=6
+      ³  ÀÄ*
+      ÃÄbomba_encendida  0/498  Ram=0
+      ³  ÀÄ*
+      ÃÄSSD1306_ROMBMP  0/424  Ram=11
+      ³  ÀÄ*
+      ÃÄSSD1306_Display  0/182  Ram=1
+      ³  ÀÄ*
+      ÃÄ@delay_us1  0/38  Ram=1
+      ÃÄ@const939  0/28  Ram=0
+      ÃÄSSD1306_DrawText  0/74  Ram=6
+      ³  ÀÄ*
+      ÃÄnoflujo_bomba  0/470  Ram=0
+      ³  ÀÄ*
+      ÃÄTanque_lleno  0/110  Ram=2
+      ³  ÀÄ*
+      ÃÄ@const940  0/28  Ram=0
+      ÃÄSSD1306_DrawText  0/74  Ram=6
+      ³  ÀÄ*
+      ÃÄTanque_bajo  0/110  Ram=2
+      ³  ÀÄ*
+      ÃÄnoflujo_bomba  0/470  Ram=0
+      ³  ÀÄ*
+      ÃÄSSD1306_ROMBMP  0/424  Ram=11
+      ³  ÀÄ*
+      ÃÄ@const941  0/34  Ram=0
+      ÃÄSSD1306_DrawText  0/74  Ram=6
+      ³  ÀÄ*
+      ÃÄSSD1306_Display  0/182  Ram=1
+      ³  ÀÄ*
+      ÃÄnoflujo_bomba  0/470  Ram=0
+      ³  ÀÄ*
+      ÀÄ@delay_us1  0/38  Ram=1

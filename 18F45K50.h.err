@@ -1,0 +1,5 @@
+*** Error 18 "18F45K50.h.c" Line 0(0,0): File can not be opened
+     File: 18F45K50.h.c
+*** Error 1 "18F45K50.h.c" Line 0(0,0): Illegal C character in input file
+      2 Errors,  0 Warnings.
+Build Failed.

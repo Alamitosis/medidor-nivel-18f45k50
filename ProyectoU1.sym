@@ -1,0 +1,264 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     _i2caddr
+005     _vccstate
+006     x_pos
+007     y_pos
+008     text_size
+009.0   wrap
+00A-409 ssd1306_buffer
+40A     selec
+40B-41C MAIN.@STRPARAM
+41D-41E SSD1306_ClearDisplay.i
+41D-41E SSD1306_FillCircle.x0
+41D-41E SSD1306_Display.i
+41D     SSD1306_Begin.vccstate
+41D-41F tuberias.@STRPARAM
+41D     MAIN.@SCRATCH1
+41D     Tanque_lleno.@SCRATCH1
+41D     Tanque_bajo.@SCRATCH1
+41E     @delay_us1.P1
+41E     SSD1306_Begin.i2caddr
+41E     MAIN.@SCRATCH2
+41E     Tanque_lleno.@SCRATCH2
+41E     Tanque_bajo.@SCRATCH2
+41F     SSD1306_ROMBMP.x
+41F     SSD1306_Display.x
+41F     @delay_ms1.P1
+41F-420 SSD1306_FillCircle.y0
+41F     SSD1306_ClearDisplay.@SCRATCH1
+41F     MAIN.@SCRATCH3
+420     SSD1306_ROMBMP.y
+420-421 SSD1306_DrawCircle.x0
+420     ssd1306_command.c
+420     SSD1306_Display.@SCRATCH1
+420     SSD1306_ClearDisplay.@SCRATCH2
+420     MAIN.@SCRATCH4
+420     tuberias.@SCRATCH1
+421-422 SSD1306_FillCircle.r
+421     ssd1306_command.control
+421-422 SSD1306_ROMBMP.bitmap
+421     tuberias.@SCRATCH2
+422-423 SSD1306_DrawCircle.y0
+422     SSD1306_DrawText.x
+422     @I2C_WRITEU_1.P1
+422     tuberias.@SCRATCH3
+423     SSD1306_DrawText.y
+423     SSD1306_FillCircle.color
+423     SSD1306_ROMBMP.w
+423     tuberias.@SCRATCH4
+424-425 SSD1306_DrawText._text
+424     SSD1306_ROMBMP.h
+424-425 SSD1306_DrawCircle.r
+424-425 SSD1306_FillCircleHelper.x0
+424     SSD1306_FillCircle.@SCRATCH1
+425-426 SSD1306_ROMBMP.i
+425     SSD1306_FillCircle.@SCRATCH2
+426-427 SSD1306_FillCircleHelper.y0
+426     SSD1306_DrawText.size
+426-427 SSD1306_DrawCircle.f
+426     SSD1306_FillCircle.@SCRATCH3
+427     SSD1306_TextSize.t_size
+427-428 SSD1306_ROMBMP.j
+427     SSD1306_GotoXY.x
+427     SSD1306_FillCircle.@SCRATCH4
+427     SSD1306_DrawText.@SCRATCH1
+428     SSD1306_Print.c
+428-429 SSD1306_FillCircleHelper.r
+428     SSD1306_GotoXY.y
+428-429 SSD1306_DrawCircle.ddF_x
+429.0   SSD1306_Print._color
+429     SSD1306_ROMBMP.@SCRATCH1
+42A     SSD1306_Print.i
+42A-42B SSD1306_DrawCircle.ddF_y
+42A     SSD1306_FillCircleHelper.cornername
+42A     SSD1306_ROMBMP.@SCRATCH2
+42B     SSD1306_Print.j
+42B-42C SSD1306_FillCircleHelper.delta
+42B-42C @MUL1616.P1
+42B     SSD1306_ROMBMP.@SCRATCH3
+42C-42D SSD1306_DrawCircle.x
+42C     SSD1306_Print.line
+42C-42D @READ_PROGRAM_MEMORY.P1
+42C     SSD1306_ROMBMP.@SCRATCH4
+42D     SSD1306_FillCircleHelper.color
+42D-42E @MUL1616.P1
+42D     SSD1306_Print.@SCRATCH1
+42D     SSD1306_ROMBMP.@SCRATCH5
+42E-42F SSD1306_DrawCircle.y
+42E-42F SSD1306_FillCircleHelper.f
+42E     SSD1306_Print.@SCRATCH2
+42F     SSD1306_Print.@SCRATCH3
+42F     @MUL1616.@SCRATCH1
+430     SSD1306_FillRect.x
+430-431 SSD1306_FillCircleHelper.ddF_x
+430     SSD1306_DrawCircle.@SCRATCH1
+431     SSD1306_FillRect.y
+431     SSD1306_DrawCircle.@SCRATCH2
+432-433 SSD1306_FillCircleHelper.ddF_y
+432     SSD1306_FillRect.w
+432     SSD1306_DrawCircle.@SCRATCH3
+433     SSD1306_FillRect.h
+433     SSD1306_DrawCircle.@SCRATCH4
+434-435 SSD1306_FillCircleHelper.x
+434     SSD1306_FillRect.color
+435-436 SSD1306_FillRect.i
+436-437 SSD1306_FillCircleHelper.y
+438     SSD1306_FillCircleHelper.@SCRATCH1
+439     SSD1306_FillCircleHelper.@SCRATCH2
+43A     SSD1306_FillCircleHelper.@SCRATCH3
+43B     SSD1306_FillCircleHelper.@SCRATCH4
+43C-43D @MULS1616.P1
+43C     SSD1306_FillCircleHelper.@SCRATCH5
+43D     SSD1306_FillCircleHelper.@SCRATCH6
+43E-43F @MULS1616.P1
+43E     SSD1306_DrawFastVLine.x
+43F     SSD1306_DrawFastVLine.y
+440     SSD1306_DrawFastVLine.h
+440     @MULS1616.@SCRATCH1
+441     SSD1306_DrawFastVLine.color
+441     @MULS1616.@SCRATCH2
+442     SSD1306_DrawFastVLine.@SCRATCH1
+443-444 SSD1306_DrawLine.x0
+445-446 SSD1306_DrawLine.y0
+447-448 SSD1306_DrawLine.x1
+449-44A SSD1306_DrawLine.y1
+44B     SSD1306_DrawLine.color
+44C.0   SSD1306_DrawLine.steep
+44D     SSD1306_DrawLine.ystep
+44E     SSD1306_DrawLine.dx
+44F     SSD1306_DrawLine.dy
+450-451 SSD1306_DrawLine.err
+452-453 SSD1306_DrawLine.t
+454-455 SSD1306_DrawLine.t
+456-457 SSD1306_DrawLine.t
+458-459 SSD1306_DrawLine.t
+45A     SSD1306_DrawPixel.x
+45A     SSD1306_DrawLine.@SCRATCH1
+45B     SSD1306_DrawPixel.y
+45B     SSD1306_DrawLine.@SCRATCH2
+45C     SSD1306_DrawPixel.color
+45C     SSD1306_DrawLine.@SCRATCH3
+45D     SSD1306_DrawPixel.@SCRATCH1
+45D     SSD1306_DrawLine.@SCRATCH4
+45E     SSD1306_DrawPixel.@SCRATCH2
+45F     SSD1306_DrawPixel.@SCRATCH3
+460     SSD1306_DrawPixel.@SCRATCH4
+461     SSD1306_DrawPixel.@SCRATCH5
+F78.6   C2OUT
+F79.6   C1OUT
+F98     CCP_2
+F98     CCP_2_LOW
+F99     CCP_2_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P1
+FE9-FEA @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P3
+FE9-FEA @WRITE_PROGRAM_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+002008  Font.call
+002018  Font.data
+002118  Font2.call
+002128  Font2.data
+002204  @const930.call
+002226  @const932.call
+002242  @const933.call
+002260  @const934.call
+002280  @const935.call
+0022A0  @const936.call
+0022BA  @const938.call
+0022D8  @const939.call
+0022F4  @const940.call
+002310  @const941.call
+002332  Portada_Oled.call
+002332  Portada_Oled.data
+002732  Tanque_lleno1.call
+002732  Tanque_lleno1.data
+002836  Tanque_lleno2.call
+002836  Tanque_lleno2.data
+00293A  Tanque_bajo1.call
+00293A  Tanque_bajo1.data
+002A3E  Tanque_bajo2.call
+002A3E  Tanque_bajo2.data
+002B42  Tanque_vacio.call
+002B42  Tanque_vacio.data
+002C46  Tanque_idk.call
+002C46  Tanque_idk.data
+002D4A  @delay_ms1
+002D74  @I2C_WRITEU_1
+002D90  ssd1306_command
+002DB6  SSD1306_Begin
+002F04  SSD1306_ClearDisplay
+002F2A  @MUL1616
+002F4E  @READ_PROGRAM_MEMORY
+002F6E  SSD1306_DrawPixel
+00305E  SSD1306_ROMBMP
+003206  SSD1306_GotoXY
+003224  SSD1306_TextSize
+003238  SSD1306_DrawLine
+00342E  SSD1306_DrawFastVLine
+003458  SSD1306_FillRect
+003496  SSD1306_Print
+00364A  SSD1306_DrawText
+003694  SSD1306_Display
+00374A  @MULS1616
+00379E  SSD1306_DrawCircle
+003A16  tuberias
+003C94  @delay_us1
+003CBA  SSD1306_FillCircleHelper
+003ECA  SSD1306_FillCircle
+003F3E  bomba_encendida
+004130  noflujo_bomba
+004306  control_bomba_manual
+004334  Tanque_lleno
+0043A2  Tanque_bajo
+004410  @cinit1
+004410  MAIN
+004458  @cinit2
+
+Project Directory:
+    D:\dayan\Documentos2\PRACTICAS GALLO\PROYECTO U1\
+
+Project Files:
+    ProyectoU1.c                                            [27-sep.-22 03:28  CRC=98F4057D]
+    C:\Program Files (x86)\PICC\devices\18f45k50.h          [12-nov.-13 14:35  CRC=FE5C2EB4]
+    SSD1306OLED.c                                           [09-nov.-21 20:49  CRC=694D7E91]
+    C:\Program Files (x86)\PICC\drivers\stdint.h            [30-dic.-08 09:01  CRC=9F7F640F]
+    Imagenes.h                                              [24-sep.-22 20:59  CRC=90256D81]
+
+Source signature=C067F1D3
+
+Units:
+    ProyectoU1 (main)
+
+Compiler Settings:
+    Processor:      PIC18F45K50
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    ICD Provisions: Yes
+    Predefined symbols:
+       #define __DEBUG 1
+       #define __18F45K50 TRUE
+
+Output Files:
+    Errors:      ProyectoU1.err
+    INHX32:      ProyectoU1.hex
+    Symbols:     ProyectoU1.sym
+    List:        ProyectoU1.lst
+    Debug/COFF:  ProyectoU1.cof
+    Project:     ProyectoU1.ccspjt
+    Call Tree:   ProyectoU1.tre
+    Statistics:  ProyectoU1.STA

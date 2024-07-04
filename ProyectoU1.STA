@@ -1,0 +1,95 @@
+
+ROM used:   11696/32768 (36%)
+            11700/32768 (36%) including unused fragments
+
+            4.6 Average locations per line
+            20.3 Average locations per statement
+
+RAM used:   1039/2048 (51%) at main() level
+            1122/2048 (55%) worst case
+
+Stack used: 7 worst case (7 in main + 0 for interrupts)
+Stack size: 30
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  241   161  28  ProyectoU1.c
+  944     0   0  C:\Program Files (x86)\PICC\devices\18f45k50.h
+  968   416  72  SSD1306OLED.c
+  163     0   0  C:\Program Files (x86)\PICC\drivers\stdint.h
+  201     0   0  Imagenes.h
+----- -----
+ 2517   577 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     32   0    7             @READ_PROGRAM_MEMORY
+0     42   0    1             @delay_ms1
+0     38   0    1             @delay_us1
+0     28   0    1             @I2C_WRITEU_1
+0    272   1    0             @const823
+0    236   1    0             @const826
+0     38   0    2   163  2.3  ssd1306_command
+0    334   1    2  1210  4.9  SSD1306_Begin
+0    240   1    8   408  8.9  SSD1306_DrawPixel
+0    182   1    1   635  6.7  SSD1306_Display
+0     38   0    2   124  4.3  SSD1306_ClearDisplay
+0    502   2   19  1524  7.9  SSD1306_DrawLine
+0     42   0    5   146  3.1  SSD1306_DrawFastVLine
+0     62   0    5   219  4.1  SSD1306_FillRect
+0     84   0    6             @MULS1616
+0    632   3   20  1261  7.3  SSD1306_DrawCircle
+0    116   0   11   229  3.7  SSD1306_FillCircle
+0    528   2   26  1191  7.8  SSD1306_FillCircleHelper
+0     74   0    6   185  4.0  SSD1306_DrawText
+0     30   0    2   127  3.9  SSD1306_GotoXY
+0     20   0    1    68  2.4  SSD1306_TextSize
+0    436   2    8  2269 11.8  SSD1306_Print
+0    424   2   11   691  7.7  SSD1306_ROMBMP
+0     36   0    5             @MUL1616
+0   1024   4    0             @const899
+0    260   1    0             @const902
+0    260   1    0             @const905
+0    260   1    0             @const908
+0    260   1    0             @const911
+0    260   1    0             @const914
+0    260   1    0             @const917
+0   2468  11    4  4335  7.4  MAIN
+0     34   0    0             @const930
+0     28   0    0             @const932
+0     30   0    0             @const933
+0     32   0    0             @const934
+0     32   0    0             @const935
+0     26   0    0             @const936
+0     30   0    0             @const938
+0     28   0    0             @const939
+0     28   0    0             @const940
+0     34   0    0             @const941
+0    638   3    4  1427  1.9  tuberias
+0    470   2    0  1088  2.0  noflujo_bomba
+0    498   2    0  1104  2.4  bomba_encendida
+0    110   0    2   172  2.2  Tanque_lleno
+0    110   0    2   172  2.2  Tanque_bajo
+0     46   0    0   183  2.6  control_bomba_manual
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               23
+    Statements              577
+    Comments                402
+    Volume (V)              30286
+    Difficulty (D)          112.4
+    Effort to implement (E) 3403042
+    Time to implement (T)   52 hours, 31 minutes
+    Est Delivered Bugs (B)  8
+    Cyclomatic Complexity   57
+    Maintainability (MI)    90
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-01FFE     0  8192  
+02000-02006     4  4  
+02008-07FFE  11692  12876  
+
+
+
